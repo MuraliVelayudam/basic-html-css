@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.bg-container {
+    background-image: url("./asserts/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.tourism-card {
+    background-color: white;
+    opacity: 0.9;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-heading{
+font-weight: bold;
+font-variant: small-caps;
+letter-spacing: 2px;
+}
+
+p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.btn{
+    background-color: hwb(106 26% 15%);
+    color: black;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-weight: 500;
+}
